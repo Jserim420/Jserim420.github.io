@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Jserim420.github.io/sitemap.xml
