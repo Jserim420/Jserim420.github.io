@@ -44,7 +44,7 @@ Java17 사용할 생각도 없었고 Java11 사용하고 있어서 갑자기 멘
 
 Download 🔽
 <br>
-[https://www.oracle.com/java/technologies/downloads/#jdk17-mac](https://www.oracle.com/java/technologies/downloads/#jdk17-mac)
+[다운로드 링크](https://www.oracle.com/java/technologies/downloads/)
 
 <br><br>
 
