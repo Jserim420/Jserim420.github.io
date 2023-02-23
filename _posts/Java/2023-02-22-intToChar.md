@@ -111,7 +111,7 @@ char numChar = Integer.toString(num).charAt(0);
 
 # Char ▶ Int
 ## Character.getNumericValue()
-[오라클 공식 문서](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.html)에 나와있는 ```forDigit()```은 아래와 같다.
+[오라클 공식 문서](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.html)에 나와있는 ```getNumericValue()```은 아래와 같다.
 - 클래스 : ```java.lang.Character```
 - 리턴 타입 : ```static int```
     - 타입이 static 이므로 인스턴스 객체를 생성하지 않고 바로 사용할 수 있다.
