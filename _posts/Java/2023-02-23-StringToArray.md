@@ -93,6 +93,53 @@ nameStr을 출력해보면 nameStr = ```경기서울부산제주``` 로 출력�
 
 <br>
 
-원하면 ```join(name, " + ")``` 을 통해 다른 형태의 값으로 출력할 수 있다.
+원하면 ```join(name, " 그리고 ")``` 을 통해 다른 형태의 값으로 출력할 수 있다.
 
 ```join(name, " 그리고 ")```을 사용하면 nameStr = ```경기 그리고 서울 그리고 부산 그리고 제주``` 로 출력된다.
+
+<br><br>
+
+# String ▶ char[]
+지금까지는 문자열을 문자열 배열로 바꾸는 방법을 알아보았다.
+
+이제는 문자열을 하나하나 쪼개 char형 배열로 바꾸는 방법을 알아보자.
+
+<br>
+
+## toCharArray()
+```toCharArray()``` 함수는 ```java.lang.String``` 클래스에 있는 함수이며, 원하는 문자열을 char[] 형 문자 배열로 반환한다.
+
+```java
+String name = "Hello";
+char[] charName = name.toCharArray();
+```
+
+위에서 charName[] 은
+
+```charName[] = {'H', 'e', 'l' , 'l', 'o'}``` 으로 반환된다.
+
+<br>
+
+split() 과 다른 점은 배열을 나누는 기준을 정할 수 없어 위처럼 char형의 값으로 하나씩 쪼개져 배열로 반환된다는 것이다. 
+
+<br><br>
+
+# char[] ▶ String
+char형 배열을 String으로 변환할 수도 있다.
+
+문자열을 분할하여 조건에 맞게 정렬하고, 정렬한 배열을 다시 문자열로 변환할 때 사용할 수 있다.
+
+<br>
+
+## String 생성자
+
+```java.util.String``` 클래스의 생성자 중 ```String(char[] value)``` 를 통해 char 배열을 문자열로 변환할 수 있다.
+
+생성자를 사용해 객체를 생성하면 된다.
+
+```java
+char[] city = {'L', 'O', 'V', 'E'};
+String cityName = new String(city);
+````
+
+위 결과 ```cityName = LOVE``` 가 된다.
